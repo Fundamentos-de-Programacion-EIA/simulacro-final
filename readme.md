@@ -9,12 +9,10 @@ def calculate_average(numbers):
     total += number
   average = total / len(numbers)
   return average
-``` 
 
-# Uso de la función
 result = calculate_average([1, 2, 3, 4, 5])
 print("Average:", result)
-
+```
 
 2. Analiza la siguiente clase y encuentra el error. Explica cómo solucionarlo.
 
@@ -47,6 +45,7 @@ numbers = [3, 5, 1, 2, 4, 8]
 print(find_maximum(numbers))
 
 ```
+
 Preguntas:
 
 - ¿Qué hace el código anterior? Describe su funcionamiento.
@@ -85,8 +84,8 @@ class Square(Shape):
 - Qué conceptos de programación orientada a objetos identificas en el código? Explica cada uno.
 - Al código anterior le falta uno de los tres conceptos vistos en clase (herencia, polimorfismo, encapsulamiento). Explica cómo se podría implementar el concepto faltante.
 
-
 5. El siguiente código define una implementación del algoritmo de ordenamiento Bubble Sort en Python. Analiza el código y responde las preguntas a continuación.
+
 ```python
 def bubble_sort(array):
     n = len(array)
